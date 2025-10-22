@@ -28,6 +28,12 @@ public Shampoo(String nome, String cor){
  public void frasco(){
     System.out.println("A cor do frasco do shampoo é: " + cor);
  }
+ public void tipo(){
+ 
+        System.out.println("O nome dessa fruta é: " + nome);
+        System.out.println("A cor da fruta é: " + cor);
+  
+}
 
 
 }

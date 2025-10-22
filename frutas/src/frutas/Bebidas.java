@@ -28,5 +28,11 @@ public void suco(){
 public void cafe(){
     System.out.println("O cafe é da cor " + cor + " ou marrom avermelhado");
 }
+public void tipo(){
+ 
+        System.out.println("O nome dessa fruta é: " + nome);
+        System.out.println("A cor da fruta é: " + cor);
+  
+}
 
 }

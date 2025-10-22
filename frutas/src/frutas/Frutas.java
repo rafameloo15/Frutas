@@ -1,5 +1,5 @@
 package frutas;
-public class Frutas {
+public abstract  class Frutas {
 
     protected String nome;
     protected String cor;
@@ -9,10 +9,8 @@ public class Frutas {
         this.cor=cor;   
     }
        
-    public void tipo(){
-        System.out.println("O nome dessa fruta é: " + nome);
-        System.out.println("A cor da fruta é: " + cor);
-    }
+    public abstract  void tipo();
 
+    //public abstract void preco(); 
 
 }

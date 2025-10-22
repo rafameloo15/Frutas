@@ -21,6 +21,14 @@ public void setCor(String cor){
     this.cor=cor;
 }
 
+//@Override 
+public void tipo(){
+ 
+        System.out.println("O nome dessa fruta é: " + nome);
+        System.out.println("A cor da fruta é: " + cor);
+  
+}
+
 public void sabor(){
     System.out.println("O sabor dessa balinha é de: " + nome);
 }
